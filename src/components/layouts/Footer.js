@@ -67,7 +67,7 @@ const Footer = () => {
                     className="nav-link p-0 text-muted"
                     target="_blank"
                   >
-                    TestUtils
+                    TextUtils
                   </Link>
                 </li>
                 <li className="nav-item mb-2">

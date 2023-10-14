@@ -62,7 +62,7 @@ const Footer = () => {
                 <li className="nav-item mb-2">
                   <Link
                     to={
-                      "https://minnathullah-themysterious.github.io/TextUtils-react/"
+                      "https://text-utils-two-woad.vercel.app"
                     }
                     className="nav-link p-0 text-muted"
                     target="_blank"

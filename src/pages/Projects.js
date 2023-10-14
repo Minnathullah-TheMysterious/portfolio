@@ -275,7 +275,7 @@ const Projects = () => {
               <div className="container d-flex justify-content-around">
                 <Link
                   to={
-                    "https://minnathullah-themysterious.github.io/TextUtils-react/"
+                    "https://text-utils-two-woad.vercel.app"
                   }
                   className=" btn btn-info fw-semibold"
                   target="_blank"

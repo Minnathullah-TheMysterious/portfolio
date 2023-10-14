@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/layouts/Layout";
 import "../styles/home.css";
 import Intro from "../components/Intro";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <Layout title={"Minnathullah's Portfolio - Home"}>
       <div className="intro">
         <Intro />
       </div>
-      <div className="container">
+      <div className="container" style={{marginBottom: '80px'}}>
         <hr />
         <h2 className="m-4 fw-semibold">Qualification</h2>
         <div className="d-flex justify-content-center align-items-center my-4">
@@ -82,6 +86,18 @@ const Home = () => {
               <li>Git</li>
             </ul>
           </div>
+          <div className="col-md-3">
+            <ul>
+              <li>Tailwind CSS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div className="col-md-3">
+            <ul>
+              <li>Redux</li>
+              <li>Redux-Toolkit</li>
+            </ul>
+          </div>
         </div>
         <hr />
         <h2 className="m-4 fw-semibold">Skills</h2>
@@ -129,9 +145,10 @@ const Home = () => {
           </div>
         </div>
         <hr />
-        <h2 className="m-4 fw-semibold">Hobies</h2>
+        <h2 className="m-4 fw-semibold">Hobbies</h2>
         <div className="container">
           <ul className=" mx-4">
+            <li className="text-info fs-5">Coding</li>
             <li className="text-info fs-5">Playing & Watching Cricket</li>
           </ul>
         </div>

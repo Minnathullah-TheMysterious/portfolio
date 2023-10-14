@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/layouts/Layout";
 import { Link } from "react-router-dom";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <Layout title={"Minnathullah's Portfolio - About Me"}>
       <div className="container" style={{ marginTop: 100, marginBottom: 100 }}>
@@ -41,7 +45,7 @@ const About = () => {
                     <span className="text-warning">
                       Electrical & Electronics Engineering
                     </span>{" "}
-                    - Jawaharlal Nehru Technologial University Hyderabad
+                    - Jawaharlal Nehru Technological University Hyderabad
                     (JNTUH).
                     <span className="text-gray"> (2019-2022.)</span>
                   </li>
@@ -71,7 +75,7 @@ const About = () => {
                     <span className="text-warning">
                       Electrical & Electronics Engineering
                     </span>{" "}
-                    - Government Polythechnic, Cherial.{" "}
+                    - Government Polytechnic, Cherial.{" "}
                     <span className="text-gray">(2016-2019)</span>
                   </li>
                 </ul>
@@ -119,15 +123,22 @@ const About = () => {
               Skills & Expertise
             </p>
             <b>Skills: </b>
+            <div className="d-flex">
             <ul className="text-warning">
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
-              <li>React.js</li>
               <li>Node.Js</li>
               <li>Express.js</li>
               <li>Mongodb</li>
             </ul>
+            <ul className="text-warning">
+              <li>React.js</li>
+              <li>Redux</li>
+              <li>Redux-Toolkit</li>
+              <li>Tailwind CSS</li>
+              <li>Bootstrap</li>
+            </ul></div>
           </div>
 
           <div className="col-md-6">

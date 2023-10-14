@@ -26,7 +26,7 @@ const Intro = () => {
             <img
               src="/images/myPic.png"
               className="img-fluid rounded-start"
-              alt="Photo"
+              alt="profile"
             />
           </div>
           <div className="col-md-8 d-flex justify-content-center align-items-center">

@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/layouts/Layout";
 import { FiMail } from "react-icons/fi";
 import { BsWhatsapp } from "react-icons/bs";
 import { BiPhone } from "react-icons/bi";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <Layout title={"Minnathullah's Portfolio - Contact Me"}>
       <div style={{ marginTop: "70px", marginBottom: '100px' }}>

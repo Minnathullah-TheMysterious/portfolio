@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/layouts/Layout";
 import { Link } from "react-router-dom";
 
 const Services = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <Layout title={"Minnathullah's Portfolio - Services"}>
       <div
@@ -112,7 +116,7 @@ const Services = () => {
               </li>
               <li>
                 <p>
-                  <b>Design and Planning: </b>Creating wireframes, prototypes,
+                  <b>Design and Planning: </b>Creating wire frames, prototypes,
                   and outlining the project scope.
                 </p>
               </li>

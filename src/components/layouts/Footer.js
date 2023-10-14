@@ -43,6 +43,24 @@ const Footer = () => {
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
                   <Link
+                    to={"https://wrist-worthy.vercel.app"}
+                    className="nav-link p-0 text-muted"
+                    target="_blank"
+                  >
+                    WristWorthy
+                  </Link>
+                </li>
+                <li className="nav-item mb-2">
+                  <Link
+                    to={"https://newsmmr.vercel.app"}
+                    className="nav-link p-0 text-muted"
+                    target="_blank"
+                  >
+                    NewsMMR
+                  </Link>
+                </li>
+                <li className="nav-item mb-2">
+                  <Link
                     to={
                       "https://minnathullah-themysterious.github.io/TextUtils-react/"
                     }
@@ -53,50 +71,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
-                  <Link
-                    to={
-                      "https://github.com/Minnathullah-TheMysterious/Ecommerce_App_Client"
-                    }
-                    className="nav-link p-0 text-muted"
-                    target="_blank"
-                  >
-                    WristWorthy - Client
-                  </Link>
-                </li>
-                <li className="nav-item mb-2">
-                  <Link
-                    to={
-                      "https://github.com/Minnathullah-TheMysterious/Ecommerce_App_Server"
-                    }
-                    className="nav-link p-0 text-muted"
-                    target="_blank"
-                  >
-                    WristWorthy - Server
-                  </Link>
-                </li>
-                <li className="nav-item mb-2">
-                  <Link
-                    to={"https://github.com/Minnathullah-TheMysterious/newsmmr"}
-                    className="nav-link p-0 text-muted"
-                    target="_blank"
-                  >
-                    NewsMMR
-                  </Link>
-                </li>
-                <li className="nav-item mb-2">
                   <Link to={""} className="nav-link p-0 text-muted">
-                    Zomato Clone
-                  </Link>
-                </li>
-                <li className="nav-item mb-2">
-                  <Link
-                    to={
-                      "https://github.com/Minnathullah-TheMysterious/Dynamic-Dropdown-React"
-                    }
-                    className="nav-link p-0 text-muted"
-                    target="_blank"
-                  >
-                    Dynamic Dropdown
+                    E-commerce
                   </Link>
                 </li>
               </ul>

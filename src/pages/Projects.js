@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/layouts/Layout";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <Layout title={"Minnathullah's Portfolio - Projects"}>
       <div
@@ -14,8 +18,7 @@ const Projects = () => {
           {/* WristWorthy */}
           <div className="col-md-5">
             <p className="my-2 fs-2 fw-semibold text-info">
-              1. WristWorthy{" "}
-              <span className="fs-6 text-gray">(In Devleopment)</span>
+              1. WristWorthy <span className="fs-6 text-gray">(Deployed)</span>
             </p>
             <div className="my-4">
               <img src="images/ecommerce.png" alt="..." className="img-fluid" />
@@ -28,11 +31,15 @@ const Projects = () => {
                 captivating shopping experience for high-quality watches. Built
                 using the MERN stack (MongoDB, Express, React, and Node.js),
                 this platform offers a user-friendly interface and a wide
-                selection of watches from various renowned brands and unique
-                designs.
+                selection of watches, Smart Phones, Laptops, etc. from various
+                renowned brands and unique designs.
               </p>
               <div className="container d-flex justify-content-around">
-                <Link to={""} className=" btn btn-info fw-semibold mx-1">
+                <Link
+                  to={"https://wrist-worthy.vercel.app"}
+                  className=" btn btn-info fw-semibold mx-1"
+                  target="_blank"
+                >
                   Explore Project
                 </Link>
                 <Link
@@ -60,66 +67,87 @@ const Projects = () => {
             <div>
               <div className="my-4">
                 <b className="text-lightgreen">Technologies Used : </b>{" "}
-                <ul className="mt-2">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>React.js</li>
-                </ul>
-                <ul className="mt-2">
-                  <li>Node.js</li>
-                  <li>Express.js</li>
-                  <li>Mongodb</li>
-                </ul>
+                <div className="d-flex">
+                  <ul className="mt-2">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <ul className="mt-2">
+                    <li>React.js</li>
+                    <li>Redux-Toolkit</li>
+                    <li>Tailwind CSS</li>
+                  </ul>
+                  <ul className="mt-2">
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Mongodb</li>
+                    <li>Mongoose</li>
+                  </ul>
+                </div>
               </div>
               <div>
                 <b className="text-lightgreen">Key Features :</b>{" "}
                 <ul className="mt-2">
                   <li>
                     <b className="text-warning">
-                      User Authentication with JWT :{" "}
+                      User Authentication with Passport JS :{" "}
                     </b>
                     To ensure a secure and personalized experience, the app
-                    provides user authentication using JSON Web Tokens (JWT),
-                    allowing users to create accounts, log in securely, and
+                    provides user authentication using{" "}
+                    <span className="text-info fw-semibold">
+                      Local Strategy & JWT Strategy of Passport JS
+                    </span>
+                    , allowing users to create accounts, log in securely, and
                     access their order history and preferences.
                   </li>
                   <li>
                     <b className="text-warning">
-                      Easy Navigation and Filtering :{" "}
+                      Easy Navigation, Filtering & Sorting :{" "}
                     </b>
                     Customers can effortlessly browse through the collection
-                    using intuitive filters, such as price range, brand, style,
-                    and more. The app's search functionality allows users to
-                    quickly find specific models or brands.
+                    using intuitive filters & sorting, such as price range,
+                    brand, category and more. The app's search functionality
+                    allows users to quickly find specific models or brands.
                   </li>
                   <li>
                     <b className="text-warning">
                       Smooth Shopping Cart and Checkout Process :{" "}
                     </b>
                     The app offers a hassle-free shopping cart system, enabling
-                    users to add multiple watches, review their selections, and
+                    users to add multiple products, review their selections, and
                     proceed to a secure and smooth checkout process with the
                     integrated payment gateway.
                   </li>
                   <li>
                     <b className="text-warning">Secure Payments : </b>
-                    WristWorthy integrates a reliable and secure payment
-                    gateway, enabling customers to make purchases using various
-                    payment methods, such as credit cards, debit cards, and
-                    digital wallets.
+                    WristWorthy integrates a reliable and secure payment gateway
+                    of <span className="text-info fw-semibold">Stripe</span>,
+                    enabling customers to make purchases using various payment
+                    methods, such as credit cards, debit cards, and digital
+                    wallets.
                   </li>
                   <li>
                     <b className="text-warning">Responsive Design : </b>The app
                     is designed to be responsive and compatible with various
-                    devices, including desktops, tablets, and smartphones,
-                    ensuring a seamless user experience across different
-                    platforms.
+                    devices using the invisible powers of{" "}
+                    <span className="text-info fw-semibold">Tailwind CSS</span>,
+                    including desktops, tablets, and smartphones, ensuring a
+                    seamless user experience across different platforms.
                   </li>
                   <li>
                     <b className="text-warning">Wishlist and Favorites : </b>
-                    Users can create wishlists and mark favorite watches for
-                    future reference, enhancing the overall shopping experience.
+                    Users can create wishlists and mark favorite their favorite
+                    products for future reference, enhancing the overall
+                    shopping experience.
+                  </li>
+                  <li>
+                    <b className="text-warning">Admin Panel : </b>A very
+                    attractive & interactive panel for admin to create, update,
+                    delete & restore the products, brands, categories & promos.
+                    A responsive orders table to manage all the orders with
+                    sufficient filters, sorting. With the features to update
+                    payment status & order status.
                   </li>
                 </ul>
               </div>
@@ -129,8 +157,7 @@ const Projects = () => {
           {/* NewsMMR */}
           <div className="col-md-5">
             <p className="my-2 fs-2 fw-semibold text-info">
-              2. NewsMMR{" "}
-              <span className="fs-6 text-gray">(Ready For Deploy)</span>
+              2. NewsMMR <span className="fs-6 text-gray">(Deployed)</span>
             </p>
             <div>
               <img src="images/news.png" alt="..." className="img-fluid" />
@@ -145,7 +172,11 @@ const Projects = () => {
                 individual interests and geographical preferences.
               </p>
               <div className="container d-flex justify-content-around">
-                <Link to={""} className=" btn btn-info fw-semibold">
+                <Link
+                  to={"https://newsmmr.vercel.app"}
+                  className=" btn btn-info fw-semibold"
+                  target="_blank"
+                >
                   Explore Project
                 </Link>
                 <Link
@@ -167,6 +198,7 @@ const Projects = () => {
                   <li>CSS</li>
                   <li>JavaScript</li>
                   <li>React.js</li>
+                  <li>Bootstrap</li>
                 </ul>
               </div>
               <div>
@@ -223,7 +255,9 @@ const Projects = () => {
           <div className="col-md-5">
             <p className="my-2 fs-2 fw-semibold text-info">
               3. TextUtils{" "}
-              <span className="fs-6 text-gray">(Deployed & Working On Responsiveness)</span>
+              <span className="fs-6 text-gray">
+                (Deployed & Working On Responsiveness)
+              </span>
             </p>
             <div>
               <img src="images/textutils.png" alt="..." className="img-fluid" />

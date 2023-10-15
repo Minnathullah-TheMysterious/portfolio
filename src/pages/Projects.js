@@ -256,7 +256,7 @@ const Projects = () => {
             <p className="my-2 fs-2 fw-semibold text-info">
               3. TextUtils{" "}
               <span className="fs-6 text-gray">
-                (Deployed & Working On Responsiveness)
+                (Deployed)
               </span>
             </p>
             <div>

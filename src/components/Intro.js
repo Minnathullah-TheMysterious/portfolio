@@ -39,9 +39,11 @@ const Intro = () => {
                 <span ref={el} className="text-info" />
               </p>
               <div className="d-flex align-items-center">
-                <button className="btn btn-success fs-5 mx-2">
-                  Download Resume
-                </button>
+                <a href="/images/resume.pdf" download="minnathullah-resume.pdf">
+                  <button className="btn btn-success fs-5 mx-2">
+                    Download Resume
+                  </button>
+                </a>
                 <button className="btn btn-success fs-5 mx-2">
                   <Link
                     to={"https://github.com/Minnathullah-TheMysterious"}

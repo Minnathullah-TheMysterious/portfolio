@@ -14,7 +14,7 @@ const Contact = () => {
       <div style={{ marginTop: "70px", marginBottom: '100px' }}>
         <div className="container">
           <div className="row g-4 my-4">
-            <div className="col-md-6 d-flex justify-content-cneter align-items-center">
+            <div className="col-md-6 d-flex justify-content-center align-items-center">
               <img
                 src="images/contact.png"
                 alt="Contact"

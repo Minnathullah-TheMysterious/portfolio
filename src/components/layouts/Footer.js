@@ -33,7 +33,15 @@ const Footer = () => {
                 </li>
                 <li className="nav-item mb-2">
                   <NavLink to={"/projects"} className="nav-link p-0 text-muted">
-                    projects
+                    Projects
+                  </NavLink>
+                </li>
+                <li className="nav-item mb-2">
+                  <NavLink
+                    to={"/certifications"}
+                    className="nav-link p-0 text-muted"
+                  >
+                    Certifications
                   </NavLink>
                 </li>
               </ul>
@@ -51,7 +59,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
-                  <Link to={"https://mmr-ecommerce.vercel.app"} className="nav-link p-0 text-muted">
+                  <Link
+                    to={"https://mmr-ecommerce.vercel.app"}
+                    className="nav-link p-0 text-muted"
+                    target="_blank"
+                  >
                     E-commerce
                   </Link>
                 </li>

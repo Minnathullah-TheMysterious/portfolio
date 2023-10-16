@@ -19,7 +19,7 @@ const Home = () => {
         <div className="d-flex justify-content-center align-items-center my-4">
           <div>
             <p className="fs-4 text-info">
-              Bachelor of Technology : Electrical & Electronics Enginnering
+              Bachelor of Technology : Electrical & Electronics Engineering
             </p>
             <div>
               <span className="fs-5">

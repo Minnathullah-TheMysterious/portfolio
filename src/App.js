@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Education from "./pages/Education";
+import Certificates from "./pages/Certificates";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/services" element={<Services />}></Route>
       <Route path="/projects" element={<Projects />}></Route>
       <Route path="/education" element={<Education />}></Route>
+      <Route path="/certifications" element={<Certificates />}></Route>
     </Routes>
   );
 }

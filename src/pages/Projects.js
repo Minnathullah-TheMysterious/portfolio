@@ -157,10 +157,10 @@ const Projects = () => {
           {/* E-commerce */}
           <div className="col-md-5">
             <p className="my-2 fs-2 fw-semibold text-info">
-              2. E-commerce <span className="fs-6 text-gray">(Deployed)</span>
+              2. E-commerce <span className="fs-6 text-gray">(Deployed, Working On Responsiveness)</span>
             </p>
             <div className="my-4">
-              <img src="images/ecommerce.png" alt="..." className="img-fluid" />
+              <img src="images/watch20.jpg" alt="..." className="img-fluid" />
             </div>
             <div className="my-4">
               <b className="text-lightgreen">Project Description :</b>{" "}

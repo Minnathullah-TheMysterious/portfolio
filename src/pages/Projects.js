@@ -175,7 +175,7 @@ const Projects = () => {
               </p>
               <div className="container d-flex justify-content-around">
                 <Link
-                  to={"https://mern-ecommerce-mmr.vercel.app"}
+                  to={"https://mmr-ecommerce.vercel.app"}
                   className=" btn btn-info fw-semibold mx-1"
                   target="_blank"
                 >

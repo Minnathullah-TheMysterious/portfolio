@@ -154,10 +154,146 @@ const Projects = () => {
             </div>
           </div>
           <hr />
+          {/* E-commerce */}
+          <div className="col-md-5">
+            <p className="my-2 fs-2 fw-semibold text-info">
+              2. E-commerce <span className="fs-6 text-gray">(Deployed)</span>
+            </p>
+            <div className="my-4">
+              <img src="images/ecommerce.png" alt="..." className="img-fluid" />
+            </div>
+            <div className="my-4">
+              <b className="text-lightgreen">Project Description :</b>{" "}
+              <p className="container mt-2">
+                "E-commerce" is a feature-rich e-commerce application designed
+                to provide watch enthusiasts and customers with a seamless and
+                captivating shopping experience for high-quality watches on vast
+                categories. Built using the MERN stack (MongoDB, Express, React,
+                and Node.js), this platform offers a user-friendly interface and
+                a wide selection of watches. from various renowned brands and
+                unique designs.
+              </p>
+              <div className="container d-flex justify-content-around">
+                <Link
+                  to={"https://mern-ecommerce-mmr.vercel.app"}
+                  className=" btn btn-info fw-semibold mx-1"
+                  target="_blank"
+                >
+                  Explore Project
+                </Link>
+                <Link
+                  to={
+                    "https://github.com/Minnathullah-TheMysterious/Ecommerce_App_Server"
+                  }
+                  className="btn btn-success fw-semibold mx-1"
+                  target="_blank"
+                >
+                  Visit Github Repository - Server
+                </Link>
+                <Link
+                  to={
+                    "https://github.com/Minnathullah-TheMysterious/Ecommerce_App_Client"
+                  }
+                  className="btn btn-success fw-semibold mx-1"
+                  target="_blank"
+                >
+                  Visit Github Repository - Client
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-7 d-flex justify-content-center align-items-center">
+            <div>
+              <div className="my-4">
+                <b className="text-lightgreen">Technologies Used : </b>{" "}
+                <div className="d-flex">
+                  <ul className="mt-2">
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Mongodb</li>
+                    <li>Mongoose</li>
+                  </ul>
+                  <ul className="mt-2">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <ul className="mt-2">
+                    <li>React.js</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <b className="text-lightgreen">Key Features :</b>{" "}
+                <ul className="mt-2">
+                  <li>
+                    <b className="text-warning">
+                      User Authentication with JWT :{" "}
+                    </b>
+                    To ensure a secure and personalized experience, the app
+                    provides user authentication using{" "}
+                    <span className="text-info fw-semibold">
+                      JsonWebToken
+                    </span>
+                    , allowing users to create accounts, log in securely, and
+                    access their order history and preferences.
+                  </li>
+                  <li>
+                    <b className="text-warning">
+                      Easy Navigation, Filtering & Sorting :{" "}
+                    </b>
+                    Customers can effortlessly browse through the collection
+                    using intuitive filters & sorting, such as price range,
+                    category and more. The app's search functionality
+                    allows users to quickly find specific models or brands.
+                  </li>
+                  <li>
+                    <b className="text-warning">
+                      Smooth Shopping Cart and Checkout Process :{" "}
+                    </b>
+                    The app offers a hassle-free shopping cart system, enabling
+                    users to add multiple products, review their selections, and
+                    proceed to a secure and smooth checkout process with the
+                    integrated payment gateway.
+                  </li>
+                  <li>
+                    <b className="text-warning">Secure Payments : </b>
+                    WristWorthy integrates a reliable and secure payment gateway
+                    of <span className="text-info fw-semibold">Braintree</span>,
+                    enabling customers to make purchases using various payment
+                    methods, such as credit cards, debit cards, and digital
+                    wallets.
+                  </li>
+                  <li>
+                    <b className="text-warning">Responsive Design : </b>The app
+                    is designed to be responsive and compatible with various
+                    devices using the invisible powers of{" "}
+                    <span className="text-info fw-semibold">Bootstrap</span>,
+                    including desktops, tablets, and smartphones, ensuring a
+                    seamless user experience across different platforms.
+                  </li>
+                  <li>
+                    <b className="text-warning">Wishlist and Favorites : </b>
+                    Users can create wishlists and mark favorite their favorite
+                    products for future reference, enhancing the overall
+                    shopping experience.
+                  </li>
+                  <li>
+                    <b className="text-warning">Admin Panel : </b>A very
+                    attractive & interactive panel for admin to create, update &
+                    delete the products & categories.
+                    A responsive orders & users table to manage all the orders & users.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr />
           {/* NewsMMR */}
           <div className="col-md-5">
             <p className="my-2 fs-2 fw-semibold text-info">
-              2. NewsMMR <span className="fs-6 text-gray">(Deployed)</span>
+              3. NewsMMR <span className="fs-6 text-gray">(Deployed)</span>
             </p>
             <div>
               <img src="images/news.png" alt="..." className="img-fluid" />
@@ -254,10 +390,7 @@ const Projects = () => {
           {/* TextUtils */}
           <div className="col-md-5">
             <p className="my-2 fs-2 fw-semibold text-info">
-              3. TextUtils{" "}
-              <span className="fs-6 text-gray">
-                (Deployed)
-              </span>
+              4. TextUtils <span className="fs-6 text-gray">(Deployed)</span>
             </p>
             <div>
               <img src="images/textutils.png" alt="..." className="img-fluid" />
@@ -274,9 +407,7 @@ const Projects = () => {
               </p>
               <div className="container d-flex justify-content-around">
                 <Link
-                  to={
-                    "https://text-utils-two-woad.vercel.app"
-                  }
+                  to={"https://text-utils-two-woad.vercel.app"}
                   className=" btn btn-info fw-semibold"
                   target="_blank"
                 >

@@ -51,6 +51,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="nav-item mb-2">
+                  <Link to={"https://mern-ecommerce-mmr.vercel.app"} className="nav-link p-0 text-muted">
+                    E-commerce
+                  </Link>
+                </li>
+                <li className="nav-item mb-2">
                   <Link
                     to={"https://newsmmr.vercel.app"}
                     className="nav-link p-0 text-muted"
@@ -61,18 +66,11 @@ const Footer = () => {
                 </li>
                 <li className="nav-item mb-2">
                   <Link
-                    to={
-                      "https://text-utils-two-woad.vercel.app"
-                    }
+                    to={"https://text-utils-two-woad.vercel.app"}
                     className="nav-link p-0 text-muted"
                     target="_blank"
                   >
                     TextUtils
-                  </Link>
-                </li>
-                <li className="nav-item mb-2">
-                  <Link to={""} className="nav-link p-0 text-muted">
-                    E-commerce
                   </Link>
                 </li>
               </ul>

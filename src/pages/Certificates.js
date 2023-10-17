@@ -12,11 +12,11 @@ const Certificates = () => {
         className="container"
         style={{ marginTop: "100px", marginBottom: "100px" }}
       >
-        <h1 className="text-center fw-semibold">Certifications</h1>
+        <h1 className="text-center">Certifications</h1>
         <div className="row">
           <div className="col-sm-6 col-12 my-4 g-4">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h4 className="text-info fw-semibold">Bachelor's Degree</h4>
+              <h4 className="text-info fs-xs-6 fs-sm-4">Bachelor's Degree</h4>
               <img
                 src="/certificates/BTech_OD.jpg"
                 alt="B-Tech Original Degree"
@@ -28,7 +28,7 @@ const Certificates = () => {
           </div>
           <div className="col-sm-6 col-12 my-4">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h4 className="text-info fw-semibold">Diploma</h4>
+              <h4 className="text-info fs-xs-6 fs-sm-4">Diploma</h4>
               <img
                 src="/certificates/Diploma_PC.jpeg"
                 alt="Diploma Provisional Certificate"
@@ -40,7 +40,7 @@ const Certificates = () => {
           </div>
           <div className="col-sm-6 col-12 my-4">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h4 className="text-info fw-semibold">
+              <h4 className="text-info fs-xs-6 fs-sm-4">
                 Industrial Training (Diploma)
               </h4>
               <img
@@ -54,7 +54,7 @@ const Certificates = () => {
           </div>
           <div className="col-sm-6 col-12 my-4">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h4 className="text-info fw-semibold">SSC</h4>
+              <h4 className="text-info fs-xs-6 fs-sm-4">SSC</h4>
               <img
                 src="/certificates/SSC_Memo.jpeg"
                 alt="SSC Provisional Certificate"
@@ -66,7 +66,7 @@ const Certificates = () => {
           </div>
           <div className="col-sm-6 col-12 my-4">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h4 className="text-info fw-semibold">
+              <h4 className="text-info fs-xs-6 fs-sm-4">
                 Full Stack Web Development
               </h4>
               <img
@@ -80,7 +80,7 @@ const Certificates = () => {
           </div>
           <div className="col-sm-6 col-12 my-4">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h4 className="text-info fw-semibold">
+              <h4 className="text-info fs-xs-6 fs-sm-4">
                 Module 1 (HTML, CSS, Bootstrap)
               </h4>
               <img
@@ -94,7 +94,7 @@ const Certificates = () => {
           </div>
           <div className="col-sm-6 col-12 my-4">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h4 className="text-info fw-semibold">Module 2 (Javascript)</h4>
+              <h4 className="text-info fs-xs-6 fs-sm-4">Module 2 (Javascript)</h4>
               <img
                 src="/certificates/edureka_module2.jpg"
                 alt="Full Stack Web Development Certificate - Javascript"
@@ -106,7 +106,7 @@ const Certificates = () => {
           </div>
           <div className="col-sm-6 col-12 my-4">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h4 className="text-info fw-semibold">
+              <h4 className="text-info fs-xs-6 fs-sm-4">
                 Module 3 (Node.js, Express.js, MongoDB)
               </h4>
               <img
@@ -120,7 +120,7 @@ const Certificates = () => {
           </div>
           <div className="col-sm-6 col-12 my-4">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h4 className="text-info fw-semibold">Module 4 (React.js)</h4>
+              <h4 className="text-info fs-xs-6 fs-sm-4">Module 4 (React.js)</h4>
               <img
                 src="/certificates/edureka_module4.jpg"
                 alt="Full Stack Web Development Certificate - React"

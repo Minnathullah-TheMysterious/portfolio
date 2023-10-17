@@ -122,7 +122,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="d-flex flex-column flex-sm-row justify-content-end py-4 my-4 border-top">
+          <div className="d-flex flex-column flex-sm-row justify-content-end border-top">
             <p>
               Copyright © Minnathullah's Portfolio | Inc. All rights reserved.
             </p>

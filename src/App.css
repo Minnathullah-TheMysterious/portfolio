@@ -12,7 +12,7 @@ footer .nav-link:hover {
   background-color: rgb(26, 24, 24);
 }
 
-/* ********************components/Qualifcation CSS****************** */
+/* ********************components/Qualification CSS****************** */
 .qualification {
   margin-top: 100px;
 }
@@ -37,6 +37,16 @@ footer .nav-link:hover {
   color: rgb(0, 170, 255);
 }
 
-.border-bottonm{
-  border-bottom: 1px solid white;
+@media (min-width: 640px) {
+  .fs-sm-4{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 639px) {
+  .fs-xs-6{
+    font-size: 1rem;
+    font-weight: 200;
+  }
 }

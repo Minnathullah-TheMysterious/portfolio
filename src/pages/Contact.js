@@ -32,7 +32,7 @@ const Contact = () => {
                 <p>
                   <FiMail className="fs-5" /> Email :{" "}
                   <span className="text-info fs-6">
-                    minnathullahmohammed@gmail.com
+                    <a href="mailto:minnathullahmohammed@gmail.com">minnathullahmohammed@gmail.com</a>
                   </span>
                 </p>
                 <p>

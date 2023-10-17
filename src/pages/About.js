@@ -88,7 +88,7 @@ const About = () => {
                     <span className="text-warning">
                       Electrical & Electronics Engineering
                     </span>{" "}
-                    - Government Polythechnic, Cherial.{" "}
+                    - Government Polytechnic, Cherial.{" "}
                     <span className="text-gray">(2016-2019)</span>
                   </li>
                 </ul>
@@ -160,7 +160,7 @@ const About = () => {
               My Approach or Philosophy
             </p>
             <p className="container">
-              Clean Code and efficient code organisation for Seamless
+              Clean Code and efficient code organization for Seamless
               Experiences.
             </p>
           </div>

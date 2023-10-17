@@ -13,7 +13,6 @@ const Services = () => {
         className="container"
         style={{ marginTop: "100px", marginBottom: "100px" }}
       >
-
         <h1 className="text-center text-paleblue fw-bold">
           Services - Full-Stack Web Development
         </h1>
@@ -22,9 +21,11 @@ const Services = () => {
         </h3>
         <div className="row g-4">
           <div className="col-md-6">
-            <img src="images/developer.png" alt="..." className="img-fluid"/>
+            <img src="images/developer.png" alt="..." className="img-fluid" />
           </div>
-          <div className="col-md-6"><img src="images/developer2.png" alt="..." className="img-fluid"/></div>
+          <div className="col-md-6">
+            <img src="images/developer2.png" alt="..." className="img-fluid" />
+          </div>
         </div>
         <h4 className="my-4 text-info fw-semibold">Service Categories</h4>
         <div className="container">
@@ -87,7 +88,9 @@ const Services = () => {
             </ul>
           </div>
           <div className="col-md-4">
-            <h5 className="text-info fw-semibold my-4 border-bottom text-center">Call-to-Action (CTA)</h5>
+            <h5 className="text-info fw-semibold my-4 border-bottom text-center">
+              Call-to-Action (CTA)
+            </h5>
             <ul>
               <li>
                 Ready to Empower Your Business with a Cutting-Edge Web Solution
@@ -105,7 +108,7 @@ const Services = () => {
           <div className="col-md-8">
             <h5 className="text-info fw-semibold my-4 border-bottom text-center">
               {" "}
-              Process and Workflow 
+              Process and Workflow
             </h5>
             <ul>
               <li>
@@ -141,16 +144,18 @@ const Services = () => {
             </ul>
           </div>
           <div className="col-md-6">
-            <h5 className="text-info fw-semibold my-4 border-bottom text-center">FAQs</h5>
+            <h5 className="text-info fw-semibold my-4 border-bottom text-center">
+              FAQs
+            </h5>
             <ul>
               <li>
                 <p>Q : What is the MERN stack?</p>
                 <ul>
                   <li>
                     <p className="text-gray">
-                      A : The MERN stack is a collection of technologies used for
-                      full-stack web development, including MongoDB, Express.js,
-                      React.js, and Node.js.
+                      A : The MERN stack is a collection of technologies used
+                      for full-stack web development, including MongoDB,
+                      Express.js, React.js, and Node.js.
                     </p>
                   </li>
                 </ul>
@@ -176,7 +181,12 @@ const Services = () => {
               </h5>
               <div className="container">
                 <p>
-                  email : <span className="text-lightgreen">minnathullahmohammed@gmail.com</span>
+                  email :{" "}
+                  <span className="text-lightgreen">
+                    <a href="mailto:minnathullahmohammed@gmail.com">
+                      minnathullahmohammed@gmail.com
+                    </a>
+                  </span>
                 </p>
                 <div className="d-flex justify-content-center">
                   <Link

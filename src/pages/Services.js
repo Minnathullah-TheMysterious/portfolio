@@ -182,11 +182,12 @@ const Services = () => {
               <div className="container">
                 <p>
                   email :{" "}
-                  <span className="text-lightgreen">
-                    <a href="mailto:minnathullahmohammed@gmail.com">
-                      minnathullahmohammed@gmail.com
-                    </a>
-                  </span>
+                  <Link
+                    to="mailto:minnathullahmohammed@gmail.com"
+                    className="text-decoration-none text-lightgreen"
+                  >
+                    minnathullahmohammed@gmail.com
+                  </Link>
                 </p>
                 <div className="d-flex justify-content-center">
                   <Link

@@ -3,6 +3,7 @@ import Layout from "../components/layouts/Layout";
 import { FiMail } from "react-icons/fi";
 import { BsWhatsapp } from "react-icons/bs";
 import { BiPhone } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const Contact = () => {
 
   return (
     <Layout title={"Minnathullah's Portfolio - Contact Me"}>
-      <div style={{ marginTop: "70px", marginBottom: '100px' }}>
+      <div style={{ marginTop: "70px", marginBottom: "100px" }}>
         <div className="container">
           <div className="row g-4 my-4">
             <div className="col-md-6 d-flex justify-content-center align-items-center">
@@ -31,9 +32,12 @@ const Contact = () => {
                 </p>
                 <p>
                   <FiMail className="fs-5" /> Email :{" "}
-                  <span className="text-info fs-6">
-                    <a href="mailto:minnathullahmohammed@gmail.com">minnathullahmohammed@gmail.com</a>
-                  </span>
+                  <Link
+                    to="mailto:minnathullahmohammed@gmail.com"
+                    className="text-decoration-none text-info fs-6"
+                  >
+                    minnathullahmohammed@gmail.com
+                  </Link>
                 </p>
                 <p>
                   <span>

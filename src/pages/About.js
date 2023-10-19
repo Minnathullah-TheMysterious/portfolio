@@ -124,21 +124,23 @@ const About = () => {
             </p>
             <b>Skills: </b>
             <div className="d-flex">
-            <ul className="text-warning">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Node.Js</li>
-              <li>Express.js</li>
-              <li>Mongodb</li>
-            </ul>
-            <ul className="text-warning">
-              <li>React.js</li>
-              <li>Redux</li>
-              <li>Redux-Toolkit</li>
-              <li>Tailwind CSS</li>
-              <li>Bootstrap</li>
-            </ul></div>
+              <ul className="text-warning">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Node.Js</li>
+                <li>Express.js</li>
+                <li>React.js</li>
+              </ul>
+              <ul className="text-warning">
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Redux</li>
+                <li>Redux-Toolkit</li>
+                <li>Tailwind CSS</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
           </div>
 
           <div className="col-md-6">

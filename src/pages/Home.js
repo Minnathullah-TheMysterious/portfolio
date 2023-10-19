@@ -76,7 +76,7 @@ const Home = () => {
           </div>
           <div className="col-md-3">
             <ul>
-              <li>Mongoose</li>
+              <li>MySQL</li>
               <li>Mongodb</li>
             </ul>
           </div>

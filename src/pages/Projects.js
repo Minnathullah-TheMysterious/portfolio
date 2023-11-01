@@ -157,7 +157,10 @@ const Projects = () => {
           {/* E-commerce */}
           <div className="col-md-5">
             <p className="my-2 fs-2 fw-semibold text-info">
-              2. E-commerce <span className="fs-6 text-gray">(Deployed, Working On Responsiveness)</span>
+              2. E-commerce{" "}
+              <span className="fs-6 text-gray">
+                (Deployed, Working On Responsiveness)
+              </span>
             </p>
             <div className="my-4">
               <img src="images/watch20.jpg" alt="..." className="img-fluid" />
@@ -233,10 +236,8 @@ const Projects = () => {
                     </b>
                     To ensure a secure and personalized experience, the app
                     provides user authentication using{" "}
-                    <span className="text-info fw-semibold">
-                      JsonWebToken
-                    </span>
-                    , allowing users to create accounts, log in securely, and
+                    <span className="text-info fw-semibold">JsonWebToken</span>,
+                    allowing users to create accounts, log in securely, and
                     access their order history and preferences.
                   </li>
                   <li>
@@ -245,8 +246,8 @@ const Projects = () => {
                     </b>
                     Customers can effortlessly browse through the collection
                     using intuitive filters & sorting, such as price range,
-                    category and more. The app's search functionality
-                    allows users to quickly find specific models or brands.
+                    category and more. The app's search functionality allows
+                    users to quickly find specific models or brands.
                   </li>
                   <li>
                     <b className="text-warning">
@@ -282,8 +283,158 @@ const Projects = () => {
                   <li>
                     <b className="text-warning">Admin Panel : </b>A very
                     attractive & interactive panel for admin to create, update &
-                    delete the products & categories.
-                    A responsive orders & users table to manage all the orders & users.
+                    delete the products & categories. A responsive orders &
+                    users table to manage all the orders & users.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr />
+          {/* BooksMMR */}
+          <div className="col-md-5">
+            <p className="my-2 fs-2 fw-semibold text-info">
+              3. E-commerce <span className="fs-6 text-gray">(Deployed)</span>
+            </p>
+            <div className="my-4">
+              <img src="images/book.jpg" alt="..." className="img-fluid" />
+            </div>
+            <div className="my-4">
+              <b className="text-lightgreen">Project Description :</b>{" "}
+              <p className="container mt-2">
+                BooksMMR is a solo project that I conceived and developed from
+                the ground up. It's a feature-rich web application designed to
+                help book enthusiasts, students, and professionals manage their
+                personal book collections effortlessly. With BooksMMR, you can
+                create, read, update, and delete books seamlessly.
+              </p>
+              <div className="container d-flex justify-content-around">
+                <Link
+                  to={"https://books-mmr.vercel.app"}
+                  className=" btn btn-info fw-semibold mx-1"
+                  target="_blank"
+                >
+                  Explore Project
+                </Link>
+                <Link
+                  to={
+                    "https://github.com/Minnathullah-TheMysterious/books-server"
+                  }
+                  className="btn btn-success fw-semibold mx-1"
+                  target="_blank"
+                >
+                  Visit Github Repository - Server
+                </Link>
+                <Link
+                  to={
+                    "https://github.com/Minnathullah-TheMysterious/books-client"
+                  }
+                  className="btn btn-success fw-semibold mx-1"
+                  target="_blank"
+                >
+                  Visit Github Repository - Client
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-7 d-flex justify-content-center align-items-center">
+            <div>
+              <div className="my-4">
+                <b className="text-lightgreen">Technologies Used : </b>{" "}
+                <div className="d-flex">
+                  <ul className="mt-2">
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Mongodb</li>
+                    <li>Mongoose</li>
+                  </ul>
+                  <ul className="mt-2">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Typescript</li>
+                  </ul>
+                  <ul className="mt-2">
+                    <li>React.js</li>
+                    <li>TailwindCSS</li>
+                    <li>Redux-Toolkit</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <b className="text-lightgreen">Key Features :</b>{" "}
+                <ul className="mt-2">
+                  <li>
+                    <b className="text-warning">
+                      📚 BooksMMR - Your Ultimate Book Management App 📚
+                    </b>
+                    Are you tired of losing track of your favorite books or
+                    struggling to keep your reading list organized? Look no
+                    further! BooksMMR is here to simplify your reading journey.
+                  </li>
+                  <li>
+                    <b className="text-warning">🌟 Project Overview : {" "}</b>
+                    BooksMMR is a solo project that I conceived and developed
+                    from the ground up. It's a feature-rich web application
+                    designed to help book enthusiasts, students, and
+                    professionals manage their personal book collections
+                    effortlessly. With BooksMMR, you can create, read, update,
+                    and delete books seamlessly.
+                  </li>
+                  <li>
+                    <b className="text-warning">🚀 Key Technologies:</b>
+                    <ul>
+                      <li>
+                        TypeScript: Ensuring type safety and improved
+                        development efficiency.
+                      </li>
+                      <li>
+                        MongoDB: Storing and managing book data efficiently.
+                      </li>
+                      <li>
+                        Redux Toolkit: Managing application state for a seamless
+                        user experience.
+                      </li>
+                      <li>
+                        Tailwind CSS: Creating a beautiful and responsive user
+                        interface.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <b className="text-warning">🔧 My Contributions:</b>
+                    <ul>
+                      <li>
+                        Conceptualized, designed, and developed the entire
+                        application.
+                      </li>
+                      <li>
+                        Implemented features for creating, updating, and
+                        deleting books.
+                      </li>
+                      <li>
+                        Integrated MongoDB for efficient data storage and
+                        retrieval.
+                      </li>
+                      <li>
+                        Leveraged TypeScript and Redux Toolkit for robust code
+                        quality.
+                      </li>
+                      <li>
+                        Designed a stunning and user-friendly interface using
+                        Tailwind CSS.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <b className="text-warning">🌐 Achievements : {' '}</b>BooksMMR has
+                    made book management a breeze for users, and it's a
+                    testament to my skills and dedication. As a solo developer,
+                    I've created a platform that simplifies book organization,
+                    garners positive user feedback, and helps people discover
+                    new reads. Join me on BooksMMR and experience the difference
+                    in book management. Whether you're a book lover or a
+                    professional, BooksMMR can enhance your reading journey like
+                    never before.
                   </li>
                 </ul>
               </div>

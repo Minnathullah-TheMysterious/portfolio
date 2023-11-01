@@ -59,8 +59,8 @@ const Services = () => {
                 and higher customer engagement.
               </li>
               <li>
-                <b>Technologies/Skills Used : </b>MERN stack (MongoDB,
-                Express.js, React.js, Node.js), RESTful APIs, JavaScript ES6+,
+                <b>Technologies/Skills Used : </b>MERN stack (MongoDB/MySQL,
+                Express.js, React.js, Node.js), RESTful APIs, TypeScript, JavaScript ES6+,
                 HTML5, CSS3.
               </li>
             </ul>

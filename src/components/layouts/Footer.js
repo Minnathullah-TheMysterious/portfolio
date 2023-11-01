@@ -69,6 +69,15 @@ const Footer = () => {
                 </li>
                 <li className="nav-item mb-2">
                   <Link
+                    to={"https://books-mmr.vercel.app"}
+                    className="nav-link p-0 text-muted"
+                    target="_blank"
+                  >
+                    BooksMMR
+                  </Link>
+                </li>
+                <li className="nav-item mb-2">
+                  <Link
                     to={"https://newsmmr.vercel.app"}
                     className="nav-link p-0 text-muted"
                     target="_blank"

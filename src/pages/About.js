@@ -84,12 +84,12 @@ const About = () => {
               <div className="col-md-8 d-flex justify-content-center align-items-center">
                 <ul>
                   <li>
-                    <span className="text-lightgreen">Diploma</span> in{" "}
+                    <span className="text-lightgreen">Course</span> in{" "}
                     <span className="text-warning">
-                      Electrical & Electronics Engineering
+                      Full Stack Web Development
                     </span>{" "}
-                    - Government Polytechnic, Cherial.{" "}
-                    <span className="text-gray">(2016-2019)</span>
+                    - Edureka!{" "}
+                    <span className="text-gray">(SEP 2022 - AUG 2023)</span>
                   </li>
                 </ul>
               </div>
@@ -128,6 +128,7 @@ const About = () => {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
+                <li>TypeScript</li>
                 <li>Node.Js</li>
                 <li>Express.js</li>
                 <li>React.js</li>
@@ -173,7 +174,7 @@ const About = () => {
             </p>
             <p className="container">
               Beyond Coding : <span className="text-lightgreen">Cricket</span>{" "}
-              (Playing & Watching), Learning things related to{" "}
+              (Playing & Watching), Exploring things related to{" "}
               <span className="text-lightgreen">electrical power</span>.
             </p>
           </div>
